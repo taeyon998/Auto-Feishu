@@ -21,4 +21,10 @@ How to use:
   
 This project was inspired by:  
   https://github.com/Kn0wn-Un/Auto-Zoom  
- Since this was for zoom, I made a feishu version.
+ Since this was for zoom, I made a feishu version.  
+ 
+ ```
+git status
+git add
+git commit
+```
