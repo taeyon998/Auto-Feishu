@@ -1,6 +1,5 @@
 
 # User parameters
-meeting_id = '123123123'  # edit this
 MINUTES = 120  # how long your classes are (eg. 120 minutes = 2 hours)
 
 
@@ -62,7 +61,9 @@ meetings.sort()
 # 4. Wait eg. 3 hours until first meeting
 for i,v in enumerate(meetings):
     curmeeting = v  # eg. ('24-08-2021 12:30 PM', None, '123123123', None)
-
+    
+    meeting_id = curmeeting[1]
+    
     now = int(time.time())  # time right now, Add 8hrs since UTC + 8hrs in China
     temp = datetime.datetime.strptime(curmeeting[0], "%d-%m-%Y %I:%M %p").timestamp() # meeting time
 
