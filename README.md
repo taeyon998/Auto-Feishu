@@ -7,10 +7,10 @@ Input format:
   
 How to use:
   1. Install libraries  (skip if already installed)  
-'''  
+``` 
         pip install pyautogui  
         pip install openpyxl  
-'''  
+```
   2. Open "List.xlsx" and insert your (1) Time and (2) Meeting ID for your feishu classes. 
   3. Make sure to completely close feishu (terminate feishu), or else it might or might not work
   4. Run joinFeishu.py  (make sure to (1) download the two image files, feishu_join.png and feishu_meeting.png, and (2) PLACE THEM IN THE SAME FOLDER/location AS joinFeishu.py)  
@@ -22,9 +22,4 @@ How to use:
 This project was inspired by:  
   https://github.com/Kn0wn-Un/Auto-Zoom  
  Since this was for zoom, I made a feishu version.  
- 
- ```
-git status
-git add
-git commit
-```
+
