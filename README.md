@@ -21,5 +21,6 @@ How to use:
   
 This project was inspired by:  
   https://github.com/Kn0wn-Un/Auto-Zoom  
- Since this was for zoom, I made a feishu version.  
+ Hats off for "Kn0wn-Un," check out his repo if you need an auto login tool for zoom.
+ Since this was for zoom, I made one for feishu.  
 
